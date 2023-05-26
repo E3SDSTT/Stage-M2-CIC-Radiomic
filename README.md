@@ -18,20 +18,20 @@ Ce dépot correspond à l'ensemble des étapes de la radiomic. Nous auront
 
 Voivi l'arborescence des dossier pour la sauvegarde:
 
-            !------------Image  # Comporte les images IRM de la prostate                
+#            !------------Image  # Comporte les images IRM de la prostate                
             !
             !------------Patient_ID   # Dans ce dossier nous alons récupérer les indexes les patients en 
             !                           fonction du Grade de Gleason.
             !                                   !--------GG1
             !                                   !--------GG2   ( Dans le dossier Img_msk_resambled nous normalisons les image
-lesions --- !-------------Img_msk_resambled-----!--------GG3     en fontion de leurs masques en fonction de leurs grade de Gleason 
+# lesions --- !-------------Img_msk_resambled-----!--------GG3     en fontion de leurs masques en fonction de leurs grade de Gleason 
             !                                   !--------GG4     avant de procéder à l'extraction ) 
             !                                   !--------GG5
             !
             !-----------ADC_T2_Images_Analyses # Nous récuperons dans ce dossier les feautures radiomic en fonction du grade de Gleason
             !
             !
-            !-------------Masks   #Comporte les Masks de chaque image
+ #           !-------------Masks   #Comporte les Masks de chaque image
             
             
 NB: Tous ses dossiers son déjà créer et existent déjà dans le zip du dossier lesions. Mettre le fichier notebook       ADC_T2_Features_Extractions.ipynb dans le même repertoire que le dossier lesion après le dézipage.
