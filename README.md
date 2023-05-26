@@ -10,16 +10,19 @@ Ce dépot correspond à l'ensemble des étapes de la radiomic. Nous auront
 + En troisième lieu la prédiction sur nos données
 
 1 - Extraction des features Radiomic
+Notre Datase lesion contient les images IRM de proste de pondération de diffusion ADC et les séquences de pondération T2 , chacun avec son masque 
+permettant de segmenter uniquement la partie tumorale.
 
 # Prérequis
 * Créer un environnement virtuel
 * Avoir un notebook jupyter déjà installer
+* Déziper le fichier lesion.zip
 * Installer les bibliothèque du fichier requierment.txt (Ce fichier ne précise pas de version car seul les versions recentes seront pris n charge)
 
 Voivi l'arborescence des dossier pour la sauvegarde:
-
-            !------------Image  # Comporte les images IRM de la prostate                
-            !
+                                !--T2
+            !------------Image--!  # Comporte les images IRM de la prostate                
+            !                   !--ADC
             !------------Patient_ID   # Dans ce dossier nous alons récupérer les indexes les patients en 
             !                           fonction du Grade de Gleason.
             !                                   !--------GG1
@@ -30,9 +33,9 @@ Voivi l'arborescence des dossier pour la sauvegarde:
             !
             !-----------ADC_T2_Images_Analyses # Nous récuperons dans ce dossier les feautures radiomic en fonction du grade de Gleason
             !
-            !
+            !             !--T2
             !-------------Masks   #Comporte les Masks de chaque image
-            
+                          !--ADC
             
 NB: Tous ses dossiers son déjà créer et existent déjà dans le zip du dossier lesions. Mettre le fichier notebook         
     ADC_T2_Features_Extractions.ipynb dans le même repertoire que le dossier lesion après le dézipage. 
