@@ -16,7 +16,9 @@ permettant de segmenter uniquement la partie tumorale.
 # Prérequis
 * Créer un environnement virtuel
 * Avoir un notebook jupyter déjà installer
-* Déziper le fichier lesion.zip
+* Télécharger les données à partir du lien drive associé à se dépôt (lien drive pour les données de IRM de la prostate.dotx)
+* Mettre le dataset dans télécharger dans le dossier cloner
+* Déziper le le dataset lesion.zip
 * Installer les bibliothèque du fichier requierment.txt (Ce fichier ne précise pas de version car seul les versions recentes seront pris n charge)
 
 Voivi l'arborescence des dossier pour la sauvegarde:
