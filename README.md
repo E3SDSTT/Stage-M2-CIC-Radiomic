@@ -34,5 +34,5 @@ lesions --- !-------------Img_msk_resambled-----!--------GG3     en fontion de l
             !-------------Masks   #Comporte les Masks de chaque image
             
             
-   # NB: Tous ses dossiers son déjà créer et existent déjà dans le zip du dossier lesions qui serait présent avec le fichier jupyter.ipynb, 
-   # vous n'aurez qu'à cloner le projet , activer votre environnement virtuel puis installer les librairies du fichier requierement.txt
+NB: Tous ses dossiers son déjà créer et existent déjà dans le zip du dossier lesions. Mettre le fichier notebook       ADC_T2_Features_Extractions.ipynb dans le même repertoire que le dossier lesion après le dézipage.
+Vous n'aurez qu'à cloner le projet , activer votre environnement virtuel puis installer les librairies du fichier requierement.txt
